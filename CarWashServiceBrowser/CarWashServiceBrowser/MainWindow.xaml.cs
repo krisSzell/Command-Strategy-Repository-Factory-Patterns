@@ -81,6 +81,9 @@ namespace CarWashServiceBrowser
         {
             var services = _servicesRepository.GetAll();
 
+            if (services == null)
+                return;
+
             foreach (var item in services)
             {
                 lstServices.Items.Add(item);
@@ -89,7 +92,7 @@ namespace CarWashServiceBrowser
 
         private Service getServiceFromTxtBox()
         {
-            if (txtName.Text == null)
+            if (txtName.Text == String.Empty)
             {
                 return null;
             }

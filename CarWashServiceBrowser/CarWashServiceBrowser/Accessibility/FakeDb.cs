@@ -8,6 +8,10 @@ namespace CarWashServiceBrowser.Accessibility
 
         public string Read()
         {
+            if (!File.Exists(_filePath))
+            {
+                File.Create(_filePath);
+            }
             return File.ReadAllText(_filePath);
         }
 

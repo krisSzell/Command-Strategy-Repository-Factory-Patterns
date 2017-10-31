@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Srebrnawy",
+    "Price": 20.0,
+    "DurationInMinutes": 30
+  },
+  {
+    "Name": "Brązowy",
+    "Price": 15.0,
+    "DurationInMinutes": 15
+  },
+  {
+    "Name": "Platynowy",
+    "Price": 30.0,
+    "DurationInMinutes": 60
+  },
+  {
+    "Name": "Normalny",
+    "Price": 25.0,
+    "DurationInMinutes": 60
+  }
+]
